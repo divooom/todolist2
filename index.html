@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Simple Todo-List / 심플 투두 리스트 A to B 할일 목록 스케줄 작성</title>
+    <link rel="icon" href="https://tistory1.daumcdn.net/tistory/7161071/skin/images/todolist02.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap"> <!-- 구글 폰트 추가 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta name="description" content="간단하고 효율적인 To Do-List 작성을 할일 목록에 넣고 타이머로 시간을 체크하여 당신의 작업을 효과적으로 관리하세요."> <!-- 검색엔진을 위하여 -->
+    <meta name="keywords" content="할일 목록, 작업 관리, 생산성, 간단한 할일, 투두리스트, todolist, to do list, 메모장, 스케줄, 스케줄관리"> <!-- 검색엔진을 위하여 -->
+    <meta name="robots" content="index, follow"> <!-- 검색엔진을 위하여 -->
+    <meta name="author" content="ⓒ Dinosroom"> <!-- 검색엔진을 위하여 -->
+
 </head>
 <body>
+    <div class="fixed-top-container">
+        <div class="button-container">
+            <button id="cpalink-button" class="cpalink-btn" style="letter-spacing: -1px;">「<strong>인터넷 속도</strong>」 높이고 통신 3사 「<strong>최대혜택</strong>」 비교하기&nbsp;&nbsp;<strong>》</strong></button>
+            <button id="description-button" class="description-btn">todolist.txt</button>
+            <button id="top-button" class="top-btn">&#9650;</button>
+            <button id="clear-button" class="clear-btn"><i class="fa-solid fa-rotate"></i></button>
+        </div>
+        <textarea id="title-input" placeholder="Title" class="title-area"></textarea>
+        <hr class="title-divider">
+    </div>
     <div class="container">
-        <div class="input-section">
+        <div class="input-area">
             <input type="text" id="todo-input" placeholder="Enter List">
-            <button id="add-button">+</button>
+            <button id="add-a-btn">A</button>
+            <button id="add-b-btn">B</button>
         </div>
-        <hr class="separator">
-        <ul id="todo-list"></ul>
-        <hr class="separator">
-        <button id="show-deleted">🗑️</button>
-        <div id="deleted-todos" style="display:none;">
-            <h3>Deleted Items</h3>
-            <ul id="deleted-list"></ul>
+        <div class="todo-list-wrapper" id="todo-list-wrapper-a">
+            <ul id="todo-list-a"></ul>
         </div>
+        <div class="todo-list-wrapper" id="todo-list-wrapper-b">
+            <ul id="todo-list-b"></ul>
+        </div>
+        <button id="show-deleted-btn">Show Deleted</button>
+        <hr class="divider">
+        <ul id="deleted-list"></ul>
     </div>
     <script src="script.js"></script>
 </body>
