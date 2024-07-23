@@ -254,25 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             // 완전삭제 버튼 추가 시작
-            const restoreBtn = document.createElement("button");
-        restoreBtn.className = "restore-btn";
-        restoreBtn.innerHTML = "&#8635;";
-        restoreBtn.style.marginLeft = "10px";
-        restoreBtn.addEventListener("click", () => {
-            deletedList.removeChild(li);
-            const originalListId = li.dataset.originalList;
-            const originalIndex = parseInt(li.dataset.originalIndex);
-            const originalList = document.getElementById(originalListId);
-            const restoredItem = createTodoItem(text, originalList, false, checkbox.checked, elapsed);
-            restoredItem.dataset.originalList = originalListId;
-            restoredItem.dataset.originalIndex = originalIndex;
-            const insertIndex = Math.min(originalIndex, originalList.children.length);
-            originalList.insertBefore(restoredItem, originalList.children[insertIndex]);
-            updateTodoNumbers(originalList);
-            checkEmptyPlaceholder(originalList);
-            saveToLocalStorage();
-        });
-
+      
         const deletePermanentlyBtn = document.createElement("button");
         deletePermanentlyBtn.className = "delete-btn";
         deletePermanentlyBtn.innerHTML = "&#128465;";
