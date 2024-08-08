@@ -61,7 +61,7 @@ body {
     background-color: #898181;
     border-radius: 0 0 8px 8px;
     color: black;
-    margin-right: 3px;
+    margin-right: 2px;
     font-size: 1.17em;
 }
 
@@ -73,7 +73,7 @@ body {
     background-color: #f44448;
     border-radius: 0 0 8px 8px;
     color: white;
-    padding: 0 11.7px;
+    padding: 0 12px;
     margin-right: -3px; /* 간격을 -3px로 설정 */
     font-size: 0.8em;
 }
@@ -86,8 +86,8 @@ body {
     background-color: #468afe;
     border-radius: 0 0 8px 8px;
     color: white;
-    padding: 0 11.7px;
-    margin-right: -30px; /* 간격을 -38px로 설정 */
+    padding: 0 12px;
+    margin-right: -20px; /* 간격을 -38px로 설정 */
     font-size: 0.8em;
 }
 
@@ -138,12 +138,12 @@ body {
 
 #title-input::placeholder {
     color: gray;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .title-text {
     color: yellow;
-    font-size: 1em; /* A, B 박스 할일 목록과 동일한 글자 크기 */
+    font-size: 1.2em; /* A, B 박스 할일 목록과 동일한 글자 크기 */
 }
 
 .divider {
