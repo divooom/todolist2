@@ -74,7 +74,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -4.5px; /* 간격을 -3px로 설정 */
+    margin-right: -4px; /* 간격을 -3px로 설정 */
     font-size: 0.8em;
 }
 
@@ -87,7 +87,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -36px; /* 간격을 -38px로 설정 */
+    margin-right: -35px; /* 간격을 -38px로 설정 */
     font-size: 0.8em;
 }
 
@@ -308,12 +308,20 @@ body {
     border: none;
     color: green;
     cursor: pointer;
-    font-size: 10em;
+    font-size: 1.3em;
     margin-left: 9px;
 }
 
 .restore-btn:hover {
     color: darkgreen;
+}
+
+#deleted-list .delete-btn {
+    font-size: 1.3em; /* 원하는 크기로 설정 */
+}
+
+#deleted-list .delete-btn:hover {
+    color: darkred; /* 기존 hover 색상 유지 */
 }
 
 #show-deleted-btn {
