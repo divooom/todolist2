@@ -74,7 +74,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -3px; /* 간격을 -3px로 설정 */
+    margin-right: -4px; /* 간격을 -3px로 설정 */
     font-size: 0.8em;
 }
 
@@ -87,7 +87,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -20px; /* 간격을 -38px로 설정 */
+    margin-right: -45px; /* 간격을 -38px로 설정 */
     font-size: 0.8em;
 }
 
