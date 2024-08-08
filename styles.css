@@ -32,7 +32,7 @@ body {
 }
 
 .top-btn, .description-btn, .cpalink-btn, .clear-btn {
-    height: 40.5px;
+    height: 41px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ body {
     background-color: #898181;
     border-radius: 0 0 8px 8px;
     color: black;
-    margin-right: 4px;
+    margin-right: 3px;
     font-size: 1.17em;
 }
 
@@ -74,8 +74,8 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 11.7px;
-    margin-right: -2px; /* 간격을 -2px로 설정 */
-    font-size: 0.72em;
+    margin-right: -3px; /* 간격을 -3px로 설정 */
+    font-size: 0.8em;
 }
 
 .description-btn:hover {
@@ -87,8 +87,8 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 11.7px;
-    margin-right: -38px; /* 간격을 -38px로 설정 */
-    font-size: 0.72em;
+    margin-right: -30px; /* 간격을 -38px로 설정 */
+    font-size: 0.8em;
 }
 
 .cpalink-btn:hover {
@@ -109,7 +109,7 @@ body {
     height: 63px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-bottom: 0; /* 여백을 없애서 붙게 함 */
 }
 
@@ -138,12 +138,12 @@ body {
 
 #title-input::placeholder {
     color: gray;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .title-text {
     color: yellow;
-    font-size: 0.9em; /* A, B 박스 할일 목록과 동일한 글자 크기 */
+    font-size: 1em; /* A, B 박스 할일 목록과 동일한 글자 크기 */
 }
 
 .divider {
@@ -308,7 +308,7 @@ body {
     border: none;
     color: green;
     cursor: pointer;
-    font-size: 1.26em;
+    font-size: 1.3em;
     margin-left: 9px;
 }
 
@@ -336,7 +336,7 @@ body {
 
 #deleted-list {
     display: none;
-    font-size: 0.63em;
+    font-size: 0.7em;
     padding: 0 18px; /* 좌우 20px 패딩 설정 */
 }
 
