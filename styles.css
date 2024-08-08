@@ -296,7 +296,7 @@ body {
     color: red;
     cursor: pointer;
     font-size: 1.35em;    
-    margin-left: 5px;
+    margin-left: 4px;
 }
 
 .delete-btn:hover {
