@@ -74,7 +74,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -4px; /* 간격을 -3px로 설정 */
+    margin-right: -4.5px; /* 간격을 -3px로 설정 */
     font-size: 0.8em;
 }
 
@@ -87,7 +87,7 @@ body {
     border-radius: 0 0 8px 8px;
     color: white;
     padding: 0 12px;
-    margin-right: -45px; /* 간격을 -38px로 설정 */
+    margin-right: -40px; /* 간격을 -38px로 설정 */
     font-size: 0.8em;
 }
 
@@ -138,7 +138,7 @@ body {
 
 #title-input::placeholder {
     color: gray;
-    font-size: 1em;
+    font-size: 0.85em;
 }
 
 .title-text {
@@ -172,13 +172,13 @@ body {
     border-radius: 18px;
     color: #eaaa56;
     background-color: black;
-    font-size: 0.585em;
+    font-size: 0.8em;
     outline: none;
 }
 
 #todo-input::placeholder {
     color: gray;
-    font-size: 0.72em;
+    font-size: 0.9em;
 }
 
 #add-a-btn, #add-b-btn {
