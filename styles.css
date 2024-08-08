@@ -283,7 +283,7 @@ body {
     color: #007bff;
     cursor: pointer;
     font-size: 1.35em;
-    margin-left: 9px;
+    margin-left: 7px;
 }
 
 .edit-btn:hover {
@@ -296,7 +296,7 @@ body {
     color: red;
     cursor: pointer;
     font-size: 1.35em;    
-    margin-left: 9px;
+    margin-left: 7px;
 }
 
 .delete-btn:hover {
